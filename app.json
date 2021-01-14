@@ -1,0 +1,21 @@
+{
+  "password": {
+    "description": "A secure password for using your bot",
+    "value": "",
+    "required": true
+    },
+  "token": {
+    "description": "Get token for BotFther @Botfather",
+    "value": "",
+    "required": true
+  },
+  "buildpacks":[{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
